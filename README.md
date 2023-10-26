@@ -32,8 +32,12 @@
 
 可以使用 `adb devices` 命令来列出已连接的设备
 如果有设备连接并处于正常状态，输出可能类似于：
-    List of devices attached
-    ABCDEFG1234	device
+```
+List of devices attached
+ABCDEFG1234	device
+```
 这表示已连接一个设备，序列号为 "ABCDEFG1234"，并且设备处于正常状态。
 如果没有设备连接，输出可能只显示标题，没有设备信息：
-    List of devices attached
+```
+List of devices attached
+```
