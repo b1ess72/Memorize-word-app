@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@+style/layout_match_parent_20">
+    <ImageView
+        android:id="@+id/wbautoplayimg"
+        style="@style/imageview_login"
+        android:src="@drawable/logo"/>
+    <EditText
+        android:id="@+id/edit_username"
+        style="@style/edittext_match_40"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:hint="用户名"/>
+    <EditText
+        android:id="@+id/edit_password"
+        style="@style/edittext_match_40"
+        android:inputType="textPassword"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:hint="密码"/>
+    <LinearLayout
+        style="@+style/ll_wrap_top_h" >
+        <TextView
+            android:id="@+id/txt_ForgetPassword"
+            style="@style/textview_wrap_1"
+            android:layout_marginRight="100dp"
+            android:text="忘记密码"/>
+        <TextView
+            android:id="@+id/txt_Register"
+            style="@style/textview_wrap_1"
+            android:text="新用户注册" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/ll_wrap_top_h">
+         <ImageView
+             android:id="@+id/vc_image"
+             style="@style/imageview_captchacode"
+             android:src="@drawable/ic_launcher" />
+         <EditText
+             android:id="@+id/vc_code"
+             style="@style/edittext_80_40"
+             android:drawableLeft="@drawable/rate_star_med_on"
+             android:layout_marginLeft="5dp" />
+        </LinearLayout>"
+
+        <Button
+             android:id="@+id/btn_Login"
+		    android:layout_width="match_parent"
+		    android:layout_height="40dp"
+		    android:text="登录"
+		    android:layout_gravity="center_horizontal"
+		    android:background="@drawable/button"
+		    android:layout_marginTop="30dp"
+		    android:textColor="#ffffff" />
+
+</LinearLayout>

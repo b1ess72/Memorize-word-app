@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ style="@style/layout_match_parent_20" >
+ 
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text_title"
+        android:text="选择词库" />
+    <TextView
+        android:id="@+id/selectWelComeWords"
+        style="@style/Text_title_wel"
+        android:text="xxx用户欢迎您" />
+    <LinearLayout style="@style/ll_wrap_top_h">
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/textview_wrap_1"
+            android:text="请选择词库"/>
+        <Spinner
+            android:id="@+id/selectCourseWords"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="34dp"
+            android:background="#E0FFFF" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/courseSelectInfo"
+            style="@style/textview_wrap_1"
+            android:text="词库详细信息"/>
+        <LinearLayout style="@style/ll_wrap_top_h">
+            <Button
+                android:id="@+id/selectButton"
+                android:layout_width="100dp"
+                style="@style/button_nowidth"
+                android:text="确定" />
+            <Button
+                android:id="@+id/selectCancel"
+                android:layout_width="100dp"
+                style="@style/button_nowidth"
+                android:text="返回" />
+            </LinearLayout>
+</LinearLayout>

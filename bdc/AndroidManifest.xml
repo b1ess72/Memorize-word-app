@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wgy.recitewords.bdc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+        </uses-permission>
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme2" >
+        <activity
+            android:name="wgy.recitewords.bdc.Index"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+          <activity android:name="activity.control.user.User_Login"/>
+          <activity android:name="activity.control.user.User_ForgetPassword" />
+          <activity android:name="activity.control.user.User_Regist" />
+          <activity android:name="wgy.recitewords.bdc.BDC_Main" />
+          <activity android:name="activity.control.user.User_Main" />
+          <activity android:name="activity.control.user.User_EditPWD" />
+          <activity android:name="activity.control.user.User_Delete" />
+          <activity android:name="activity.control.user.user_RealRegist" />
+          <activity android:name="activity.control.user.User_ForEncrypted" />
+          <activity android:name="activity.control.user.User_ForPhone" />
+          <activity android:name="activity.control.user.User_username" />
+          <activity android:name="activity.control.user.User_ForEmail" />
+          <activity android:name="activity.control.user.User_EditInfo" />
+          <activity android:name="activity.control.course.Course_gov" />
+          <activity android:name="activity.control.course.ImportCourse" />
+          <activity android:name="activity.control.course.SelectCourse" />
+          <activity android:name="activity.control.course.AddWord" />
+          <activity android:name="activity.control.course.EditWord" />
+          <activity android:name="activity.control.course.DeleteWord" />
+          <activity android:name="activity.control.course.GroupWord" />
+          <activity android:name="activity.control.course.WordGroupDetals" />
+          <activity android:name="activity.control.course.StudyProgressadjustment" />
+          <activity android:name="activity.control.studyreview.Management" />
+          <activity android:name="activity.control.studyreview.SelectGroupNumber" />
+          <activity android:name="activity.control.studyreview.StudyReviewList" />
+          <activity android:name="activity.control.setting.settingmain" />
+          <activity android:name="activity.control.setting.setting_display_interface" />
+          <activity android:name="activity.control.setting.setting_pronunciation" />
+          <activity android:name="activity.control.setting.setting_network_right" />
+          <activity android:name="activity.control.setting.setting_learning_mode" />
+          <activity android:name="activity.control.kingsoft.KingSoft_gov" />
+          <activity android:name="activity.control.kingsoft.KingSoftSelect" />
+          <activity android:name="activity.control.kingsoft.KingSoftEdit" />
+          <activity android:name="activity.control.kingsoft.kingsoft_delete" />
+          <activity android:name="activity.control.studyreview.Management"/>
+          <activity android:name="activity.control.studyreview.SelectGroupNumber"/>
+          <activity android:name="activity.control.studyreview.RecommendReview"/>
+          <activity android:name="activity.control.studyreview.StudyReviewList"/>
+          <activity android:name="activity.control.studyreview.WordBrowse"/>
+    </application>
+</manifest>

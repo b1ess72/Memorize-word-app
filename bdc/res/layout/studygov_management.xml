@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_50">
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text_title"
+        android:text="学习/复习管理"/>
+    <TextView
+        android:id="@+id/mmWordPhonogram"
+        style="@style/Text_title_wel"
+        android:text="xxx用户欢迎您"/>
+    <Button
+        android:id="@+id/mmLearningcontent"
+        style="@style/button_match_parent"
+        android:text="学习今日内容"/>
+    <Button
+        android:id="@+id/mmGrouplearn"
+        style="@style/button_match_parent"
+        android:text="选择按分组号学习"/>
+    <Button
+        android:id="@+id/mmReviewsales"
+        style="@style/button_match_parent"
+        android:text="复习推荐"/>
+    <Button
+        android:id="@+id/mmSelectthereview"
+        style="@style/button_match_parent"
+        android:text="按分组选择复习"/>
+    <Button
+        android:id="@+id/mmnewword"
+        style="@style/button_match_parent"
+        android:text="生单词"/>
+    <Button
+        android:id="@+id/mmcancel"
+        style="@style/button_match_parent"
+        android:text="返    回"/>
+</LinearLayout>

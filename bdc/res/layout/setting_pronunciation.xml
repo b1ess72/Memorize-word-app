@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    style="@style/layout_match_parent_20" >
+    <TextView
+        android:id="@+id/soundSize"
+        style="@style/Text_title"
+        android:text="默认声音大小"/>
+    <LinearLayout
+        style="@style/ll_wrap_top_h"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/TextView01"
+            style="@style/textview_wrap_1"
+            android:text="单词的读音设置"/>
+        <EditText
+            android:id="@+id/soundRight"
+            android:layout_width="120dp"
+            style="@style/edittext_base_heightwrap"/>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/ll_wrap_top_h"
+            android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/TextView01"
+            style="@style/textview_wrap_1"
+            android:text="点击播放试试:"/>
+        <SeekBar
+            android:id="@+id/seekbar"
+            style="@style/seekbar"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textview_wrap_1"
+            android:text="范围0-100之间，如果50则一半的系统声音大小"/>
+        <CheckBox
+            android:id="@+id/showWord"
+            style="@style/checkbox"
+            android:text="显示单词的同时自动播放读音"/>
+        <Button
+            android:id="@+id/determineModify"
+            style="@style/button_match_parent"
+            android:text="确定修改"/>
+        <Button
+            android:id="@+id/returnModify"
+            style="@style/button_match_parent"
+            android:text="返回"/>
+    
+
+</LinearLayout>

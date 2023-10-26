@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_20">
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text_title"
+        android:text="修改单词" />
+    <TextView
+        android:id="@+id/editWelcomeWords"
+        style="@style/Text_title_wel"
+        android:text="xxx用户欢迎您" />
+    <TextView
+        android:id="@+id/editCourseSelect"
+        style="@style/textview_wrap_1"
+        android:text="已经选择课程:" />
+    <LinearLayout style="@style/ll_wrap_top_h">
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/textview_wrap_1"
+            android:text="单  词"/>
+        <EditText
+            android:id="@+id/editWordName"
+            style="@style/edittext_base_wrap" />
+        </LinearLayout>
+        <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+                android:id="@+id/TextView01"
+                style="@style/textview_wrap_1"
+                android:text="音    标"/>
+            <EditText
+                android:id="@+id/editWordPhonogram"
+                style="@style/edittext_base_wrap" />
+            </LinearLayout>
+            <LinearLayout style="@style/ll_wrap_top_h">
+                <TextView
+                    android:id="@+id/TextView02"
+                    style="@style/textview_wrap_1"
+                    android:text="单词含义"/>
+                <EditText
+                    android:id="@+id/editWordMing"
+                    style="@style/edittext_base_wrap"/>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/editselectButton"
+                    style="@style/button_match_parent"
+                    android:text="查询单词" />
+                <Button
+                    android:id="@+id/editButton"
+                    style="@style/button_match_parent"
+                    android:text="确定修改"  />
+                <Button
+                    android:id="@+id/editCancel"
+                    style="@style/button_match_parent"
+                    android:text="返    回"/>
+</LinearLayout>

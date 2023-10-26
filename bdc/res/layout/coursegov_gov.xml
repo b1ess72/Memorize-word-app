@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    style="@style/layout_match_parent_50">
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text_title"
+        android:text="词库管理"/>
+    <TextView
+        android:id="@+id/welcomeWords"
+        style="@style/Text_title_wel"
+        android:layout_marginTop="15dp"
+        android:text="xxx用户欢迎您" />
+    <Button
+        android:id="@+id/importCourse"
+        style="@style/button_match_parent"
+        android:text="导入词库" />
+    <Button
+        android:id="@+id/mmCoursesofstudy"
+        style="@style/button_match_parent"
+        android:text="更改学习的词库" />
+    <Button
+        android:id="@+id/addWord"
+        style="@style/button_match_parent"
+        android:text="添加单个单词" />
+    <Button
+        android:id="@+id/editWord"
+        style="@style/button_match_parent"
+        android:text="修改单词" />
+    <Button
+        android:id="@+id/deleteWord"
+        style="@style/button_match_parent"
+        android:text="删除单个词库/单词" />
+    <Button
+        android:id="@+id/groupWord"
+        style="@style/button_match_parent"
+        android:text="单词分组" />
+    <Button
+        android:id="@+id/studystate"
+        style="@style/button_match_parent"
+        android:text="学习进度管理" />
+    <Button
+        android:id="@+id/returntousermain"
+        style="@style/button_match_parent"
+        android:text="返回" />
+</LinearLayout>

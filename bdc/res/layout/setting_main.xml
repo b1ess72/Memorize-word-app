@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    style="@style/layout_match_parent_50">
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text_title"
+        android:text="设置管理"/>
+    <TextView
+        android:id="@+id/smwelComeWords"
+        style="@style/Text_title_wel"
+        android:text="xxx用户欢迎您"/>
+    <Button
+        android:id="@+id/display_interface"
+        style="@style/button_match_parent"
+        android:text="浏览单词界面设置"/>
+    <Button
+        android:id="@+id/word_pronumcion"
+        style="@style/button_match_parent"
+        android:text="默认声音大小设置"/>
+    <Button
+        android:id="@+id/network_right"
+        style="@style/button_match_parent"
+        android:text="网络权限设置"/>
+    <Button
+        android:id="@+id/learning_mode"
+        style="@style/button_match_parent"
+        android:text="学习模式设置"/>
+    <Button
+        android:id="@+id/returnMain"
+        style="@style/button_match_parent"
+        android:text="返回"/>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      style="@style/layout_match_parent_20">
+      <TextView
+          android:text="实名认证"
+          style="@style/Text_title" />
+      <EditText
+          android:id="@+id/edit_student"
+          style="@style/edittext_match_40"
+          android:hint="学号" />
+      <EditText
+          android:id="@+id/edit_name"
+          style="@style/edittext_match_40"
+          android:hint="姓名" />
+      <EditText
+          android:id="@+id/edit_identity"
+          style="@style/edittext_match_40"
+          android:hint="身份证号" />
+      <EditText
+          android:id="@+id/edit_phone"
+          style="@style/edittext_match_40"
+          android:hint="手机号" />
+      <EditText
+          android:id="@+id/edit_email"
+          style="@style/edittext_match_40"
+          android:hint="邮箱" />
+      <LinearLayout
+          style="@style/ll_wrap_top_h">
+       <EditText
+           android:id="@+id/edit_Yz"
+           style="@style/edittext_80_40" />
+       <ImageView
+           style="@style/imageview_captchacode"
+           android:id="@+id/vc_image"
+           android:src="@drawable/ic_launcher" />
+       </LinearLayout>"
+       <TextView
+           android:id="@+id/txt_01"
+           style="@style/Text_title_warning" />
+       <Button
+           android:id="@+id/submit" 
+           style="@style/button_match_parent"
+           android:text="提交"  />
+        <Button
+           android:id="@+id/back" 
+           style="@style/button_match_parent"
+           android:text="返回"  />
+</LinearLayout>

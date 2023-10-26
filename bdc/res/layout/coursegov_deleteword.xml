@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_20">
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text_title"
+        android:text="删除课程/单词" />
+    <TextView
+        android:id="@+id/delectWelcomeWord"
+        style="@style/Text_title_wel"
+        android:text="xxx用户欢迎您"/>
+    <TextView
+        android:id="@+id/DeleteCourseSelect"
+        style="@style/textview_wrap_1"
+        android:text="已经选择课程："/>
+    <LinearLayout style="@style/ll_wrap_top_h">
+        <TextView
+            android:id="@+id/TextView02"
+            style="@style/textview_wrap_1"
+            android:text="单词"/>
+        <EditText
+            android:id="@+id/deleteWordNames"
+            android:layout_width="150dp"
+            style="@style/edittext_base_heightwrap"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/deleteButton"
+            style="@style/button_match_parent"
+            android:text="删除单词" />
+        <Button
+            android:id="@+id/deleteCancel"
+            style="@style/button_match_parent"
+            android:text="返    回" />
+        <Button
+            android:id="@+id/deleteCourseAllWord"
+            style="@style/button_match_parent"
+            android:text="删除当前课程" />
+</LinearLayout>

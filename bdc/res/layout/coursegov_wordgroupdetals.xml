@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_20">
+    <TextView
+        android:id="@+id/textView1" 
+        style="@style/Text_title"
+        android:layout_marginTop="22dp"
+        android:text="单词分组详细信息"/>
+    <TextView
+        android:id="@+id/wgtWordPhonogram"
+        style="@style/Text_title_wel"
+        android:text="xxx用户欢迎您"/>
+    <TextView
+        android:id="@+id/wgtcoursetitle" 
+        style="@style/textview_wrap_1"
+        android:text="课程名称："/>
+    <LinearLayout style="@style/ll_wrap_top_h">
+        <TextView
+            android:id="@+id/wgtNumberofclusters"
+            style="@style/textview_wrap_1"
+            android:text="分组数："/>
+        <TextView
+            android:id="@+id/wgtaveragenumberofwords"
+            style="@style/textview_wrap_1"
+            android:text="平均每组单词数："/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/wgttotalnumberofwords"
+            style="@style/textview_wrap_1"
+            android:text="总单词数："/>
+        <LinearLayout style="@style/ll_wrap_top_h">
+            <Button
+                android:id="@+id/Alladjustments"
+                android:layout_width="80dp"
+                style="@style/button_nowidth"
+                android:text="调整分组"/>
+            <Button
+                android:id="@+id/btreturn"
+                android:layout_width="80dp"
+                style="@style/button_nowidth"
+                android:text="返回"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/detailedinformation" 
+                style="@style/textview_wrap_1"
+                android:text="详细信息："/>
+            <View
+                android:id="@+id/www"
+                style="@style/view_horizontal_top"/>
+            <ListView
+                android:id="@+id/listView1"
+                style="@style/listview">
+        </ListView>
+</LinearLayout>

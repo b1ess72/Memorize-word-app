@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_20" >
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text_title"
+        android:text="添加单词" />
+    <TextView
+        android:id="@+id/addWelComeWords"
+        style="@style/Text_title_wel"
+        android:text="xxx用户欢迎您"/>
+    <TextView
+        android:id="@+id/addCourseSelect"
+        style="@style/textview_wrap_1"
+        android:text="已经选择课程："/>
+    <LinearLayout style="@style/ll_wrap_top_h">
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/textview_wrap_1"
+            android:text="单词" />
+        <EditText
+            android:id="@+id/addWordName"
+            style="@style/edittext_base_wrap"/>
+        </LinearLayout>
+        <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+                android:id="@+id/TextView02"
+                style="@style/textview_wrap_1"
+                android:text="音 标" />
+            <EditText
+                android:id="@+id/addWordPhonogram"
+                style="@style/edittext_base_wrap" />
+            </LinearLayout>
+            <LinearLayout style="@style/ll_wrap_top_h">
+            <EditText
+                android:id="@+id/TextView01"
+                style="@style/textview_wrap_1"
+                android:text="单词含义" />
+            <EditText
+                android:id="@+id/addWordMing"
+                style="@style/edittext_base_wrap" />
+           </LinearLayout>
+            <CheckBox
+                android:id="@+id/addCheckRepeat"
+                style="@style/checkbox"
+                android:text="重复覆盖" />
+            <Button
+                android:id="@+id/addButton"
+                style="@style/button_match_parent"
+                android:text="确定" />
+            <Button
+                android:id="@+id/addCancel"
+                style="@style/button_match_parent"
+                android:text="返回" />
+</LinearLayout>

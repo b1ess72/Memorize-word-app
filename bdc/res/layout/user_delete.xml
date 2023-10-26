@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/layout_match_parent_20">
+  <TextView
+      style="@style/Text_title"
+      android:text="删除用户" />
+  <TextView
+      android:id="@+id/wel_word"
+      style="@style/Text_title_wel"
+      android:text="欢迎您登录" />
+  <EditText
+      android:id="@+id/edit_username"
+      style="@style/edittext_match_40"
+      android:drawableLeft="@android:drawable/ic_menu_myplaces"
+      android:hint="请输入需要的删除的用户名" />
+  <TextView
+      android:id="@+id/txt_dection"
+      style="@style/Text_title_warning"
+      android:text="" />
+  <Button
+      android:id="@+id/btn_delete"
+      style="@style/button_match_parent"
+      android:text="删除用户" />
+  <Button
+      android:id="@+id/user_quit"
+      style="@style/button_match_parent"
+      android:text="返回" />"
+    
+
+</LinearLayout>

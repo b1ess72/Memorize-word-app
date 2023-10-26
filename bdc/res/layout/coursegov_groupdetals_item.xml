@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    style="@style/LinearLayout_item_horizontal" >
+    <TextView
+        android:id="@+id/gnumber1"
+        android:layout_width="40dp"
+        style="@style/Text_item"
+        android:text="组号"/>
+    <View style="@style/view_vertical_item"/>
+    <TextView
+        android:id="@+id/words1"
+        android:layout_width="50dp" 
+        style="@style/Text_item"
+        android:text="单词数"/>
+    <View style="@style/view_vertical_item"/>
+    <TextView
+        android:id="@+id/studies1"
+        android:layout_width="50dp"
+        style="@style/Text_item"
+        android:text="已背数"/>
+    <View style="@style/view_vertical_item"/>
+    <TextView
+        android:id="@+id/gnumber2"
+        android:layout_width="40dp"
+        style="@style/Text_item"
+        android:text="组号"/>
+    <View style="@style/view_vertical_item"/>
+    <TextView
+        android:id="@+id/words2"
+        android:layout_width="50dp"
+        style="@style/Text_item"
+        android:text="单词数" />
+    <View style="@style/view_vertical_item"/>
+    <TextView
+        android:id="@+id/studies2"
+        android:layout_width="50dp"
+        style="@style/Text_item"
+        android:text="已背数" />
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_20" >
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text_title"
+        android:text="导入词库" />
+    <TextView
+        android:id="@+id/importWeleComeWords"
+        style="@style/Text_title_wel"
+        android:text="xxx用户欢迎您" />
+    <LinearLayout
+        android:id="@+id/init"
+        style="@style/ll_match_wrap_v">
+        <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textview_wrap_1"
+                android:text="词库名" />
+            <EditText
+                android:id="@+id/importCourseName"
+                style="@style/edittext_base_wrap" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearlayoutfamiliarity"
+                style="@style/ll_wrap_center_h"
+                android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/textview_wrap_1"
+                android:text="熟悉程度:" />
+            <Spinner
+                android:id="@+id/spinnerfamiliarity"
+                style="@style/spinner" />
+            </LinearLayout>
+            <LinearLayout style="@style/ll_wrap_top_h">
+                <CheckBox
+                    android:id="@+id/duplicationName"
+                    style="@style/checkbox"
+                    android:text="重名单词覆盖" />
+                <CheckBox
+                    android:id="@+id/duplicationCourse"
+                    style="@style/checkbox"
+                    android:text="词库同名覆盖" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/browseImportButton"
+                    style="@style/button_match_parent"
+                    android:text="浏览导入文件" />
+                <Button
+                    android:id="@+id/returnbt"
+                    style="@style/button_match_parent"
+                    android:text="返回" />
+                </LinearLayout>
+                <LinearLayout style="@style/ll_match_wrap_center_v"
+                    android:id="@+id/importpass"
+                    android:visibility="gone">
+                <TextView
+                    android:id="@+id/progressBarstate"
+                    style="@style/textview_wrap_1"
+                    android:text="词库名" />
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:max="100"
+                    android:progress="0"
+                    android:secondaryProgress="0" />
+                <TextView
+                    android:id="@+id/progresstext1"
+                    style="@style/textview_wrap_1"
+                    android:text="正在导入中....." />
+                </LinearLayout>
+</LinearLayout>

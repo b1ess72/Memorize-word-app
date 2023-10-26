@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    style="@style/base_match_parent">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        style="@style/layout_match_parent_20">
+        <TextView
+            android:id="@+id/textView0"
+            style="@style/Text_title"
+            android:layout_marginTop="15dp"
+            android:text="金山词霸修改"/>
+        <LinearLayout style="@style/ll_wrap_center_h">
+            <EditText
+                android:id="@+id/WordNameeditselect"
+                style="@style/edittext_80_40"
+                android:hint="请输入需要修改的单词">
+                <requestFocus/>
+                </EditText>
+                <Button
+                    android:id="@+id/kingsofteditquerry"
+                    android:layout_width="50dp"
+                    style="@style/button_nowidth"
+                    android:text="查询"/>
+                <Button
+                    android:id="@+id/kingsofteditturn"
+                    android:layout_width="50dp"
+                    style="@style/button_nowidth"
+                    android:text="返回"/>
+    </LinearLayout>
+    <LinearLayout style="@style/ll_wrap_top_h">
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/textview_wrap_1"
+            android:text="单词"/>
+        <EditText
+            android:id="@+id/editWordName"
+            style="@+style/edittext_kingsoft"/>
+        </LinearLayout>
+        <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+            android:id="@+id/textView5"
+            style="@style/textview_wrap_1"
+            android:text="音标（美）"/>
+        <EditText
+            android:id="@+id/editPhonogramE"
+            style="@+style/edittext_kingsoft"/>
+        </LinearLayout>
+         <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+            android:id="@+id/textView4"
+            style="@style/textview_wrap_1"
+            android:text="音标（英）"/>
+        <EditText
+            android:id="@+id/editPhonogramA"
+            style="@style/edittext_kingsoft"/>
+        </LinearLayout>
+         <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+            android:id="@+id/textView6"
+            style="@style/textview_wrap_1"
+            android:text="解释"/>
+        <EditText
+            android:id="@+id/editWordMeaning"
+            style="@style/edittext_kingsoft"/>
+        </LinearLayout>
+         <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+            android:id="@+id/textView7"
+            style="@style/textview_wrap_1"
+            android:text="读音（英）"/>
+        <EditText
+            android:id="@+id/editPronunciationE"
+            style="@style/edittext_kingsoft"/>
+        </LinearLayout>
+         <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+            android:id="@+id/textView2"
+            style="@style/textview_wrap_1"
+            android:text="读音（美）"/>
+        <EditText
+            android:id="@+id/editPronunciationA"
+            style="@style/edittext_kingsoft"/>
+        </LinearLayout>
+         <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+            android:id="@+id/textView8"
+            style="@style/textview_wrap_1"
+            android:text="例句"/>
+        <EditText
+            android:id="@+id/editExampleSentence"
+            style="@style/edittext_kingsoft"/>
+        </LinearLayout>
+         <LinearLayout style="@style/ll_wrap_top_h">
+            <TextView
+            android:id="@+id/textView1"
+            style="@style/textview_wrap_1"
+            android:text="例句解释"/>
+        <EditText
+            android:id="@+id/editSentenceMeaning"
+            style="@style/edittext_kingsoft"
+            android:layout_alignLeft="@+id/editExampleSentence"
+            android:layout_below="@+id/editExampleSentence"
+            android:ems="10"/>
+        </LinearLayout>
+        <LinearLayout style="@style/ll_wrap_top_h">
+            </LinearLayout>
+            <Button
+                android:id="@+id/kingsoftedit"
+                style="@style/button_match_parent"
+                android:text="确定修改"/>
+            </LinearLayout>
+</ScrollView>

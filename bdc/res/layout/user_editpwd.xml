@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@style/layout_match_parent_20">
+     <TextView
+       android:id="@+id/text_tilte"
+       style="@style/Text_title"
+       android:text="修改密码" />
+   <TextView
+       android:id="@+id/wel_word"
+       style="@style/Text_title_wel"
+       android:text="欢迎您登录" />
+      
+   <EditText
+       android:id="@+id/edit_username"
+       style="@style/edittext_match_40"
+       android:drawableLeft="@android:drawable/ic_menu_myplaces"
+       android:hint="请输入需要重置密码的用户名" />
+   <EditText
+       android:id="@+id/edit_password_old"
+       style="@style/edittext_match_40"
+       android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+       android:inputType="textPassword"
+       android:hint="请输入旧密码" />
+    <EditText
+       android:id="@+id/edit_password_first"
+       style="@style/edittext_match_40"
+       android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+       android:inputType="textPassword"
+       android:hint="输入新密码" />
+   <EditText
+       android:id="@+id/edit_password_second"
+       style="@style/edittext_match_40"
+       android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+       android:inputType="textPassword"
+       android:hint="请输入确认密码" />
+         
+   <TextView
+       android:id="@+id/txt_dection"
+       style="@style/Text_title_warning"
+       android:text="" />
+      
+   <Button
+       android:id="@+id/btn_editPassword_finish"
+       style="@style/button_match_parent"
+       android:text="修改" />
+   <Button
+       android:id="@+id/btn_repwd"
+       style="@style/button_match_parent"
+       android:text="重置密码" />
+   <Button
+       android:id="@+id/user_quit"
+       style="@style/button_match_parent"
+       android:text="返回" />
+      
+</LinearLayout>

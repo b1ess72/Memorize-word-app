@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_20">
+    <TextView
+        android:id="@+id/txt_question"
+        style="@style/Text_title"
+        android:text="密保问题：" />
+    <EditText
+        android:id="@+id/fpg_answer"
+        style="@style/edittext_match_40"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:hint="请输入您的密保问题" />
+    <LinearLayout
+        style="@style/ll_wrap_top_h">
+        <EditText
+            android:id="@+id/fgp_Yz"
+            style="@style/edittext_80_40" />
+        <ImageView
+            android:id="@+id/fgp_image"
+            style="@style/imageview_captchacode"
+            android:src="@drawable/ic_launcher" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_rgp_complete"
+            style="@style/button_match_parent"
+            android:text="完        成" />
+        </LinearLayout>
+    
+    
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_20">
+        <TextView
+            android:id="@+id/srlrevieworstudy"
+            style="@style/Text_title"
+            android:text="复习/学习列表"/>
+        <TextView
+            android:id="@+id/srlWordPhonogram"
+            style="@style/Text_title_wel"
+            android:text="xxx用户欢迎您"/>
+        <LinearLayout
+            style="@style/ll_match_wrap_v"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:id="@+id/srlCourseandgroup"
+                style="@style/textview_wrap_1"
+                android:text="xxx课程，xx组共计xx个单词"/>
+            <View
+                android:id="@+id/www"
+                style="@style/view_horizontal_top"/>
+            <ListView
+                android:id="@+id/srlitem2"
+                style="@style/listview">
+                </ListView>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/ll_wrap_center_h">
+            <Button
+                android:id="@+id/srlcancle"
+                android:layout_width="100dp"
+                style="@style/button_nowidth"
+                android:layout_marginRight="32dp"
+                android:text="返回"/>
+            <Button
+                android:id="@+id/srlWordstobrowse"
+                android:layout_width="100dp"
+                style="@style/button_nowidth"
+                android:layout_marginLeft="30dp"
+                android:text="单词浏览"/>
+            </LinearLayout>
+            </LinearLayout>
+           
+

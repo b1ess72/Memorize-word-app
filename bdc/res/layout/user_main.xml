@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_50" >
+    <TextView
+        android:id="@+id/wel_title"
+        style="@style/Text_title"
+        android:text="用户管理" />
+    <TextView
+        android:id="@+id/wel_word"
+        style="@style/Text_title_wel"
+        android:text="欢迎您登录" />
+    <Button
+        android:id="@+id/user_editpassword"
+        style="@style/button_match_parent"
+        android:text="密码修改" />
+    <Button
+        android:id="@+id/user_forgetpassword"
+        style="@style/button_match_parent"
+        android:text="忘记密码" />
+    <Button
+        android:id="@+id/user_editinfomation"
+        style="@style/button_match_parent"
+        android:text="个人资料修改" />
+    <Button
+        android:id="@+id/user_realcertification"
+        style="@style/button_match_parent"
+        android:text="实名认证" />
+    <Button
+        android:id="@+id/user_delete"
+        style="@style/button_match_parent"
+        android:text="删除用户" />
+    <Button
+        android:id="@+id/user_quit"
+        style="@style/button_match_parent"
+        android:text="返回" />
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@style/layout_match_parent_20">
+   <TextView
+       android:id="@+id/TextView01"
+       style="@style/Text_title"
+       android:text="单词分组" />
+   <TextView
+       android:id="@+id/groupWelcomeWords"
+       style="@style/Text_title_wel"
+       android:text="xxx用户欢迎您" />
+   <TextView
+       android:id="@+id/groupCourseName"
+       style="@style/textview_wrap_1"
+       android:text="课程名："/>
+   <LinearLayout style="@style/ll_wrap_top_h">
+       <TextView
+           android:id="@+id/groupCourseCount"
+           style="@style/textview_wrap_1"
+           android:text="总单词数:"/>
+       <TextView
+           android:id="@+id/TextView03"
+           style="@style/textview_wrap_1"
+           android:text="分为"/>
+       <EditText
+           android:id="@+id/groupCount"
+           android:layout_width="100dp"
+           style="@style/edittext_base_heightwrap">
+           <requestFocus/>
+           </EditText>
+           <TextView
+               android:id="@+id/TextView04"
+               style="@style/textview_wrap_1"
+               android:text="组" />
+           </LinearLayout>
+           <LinearLayout style="@style/ll_wrap_top_h">
+               <Button
+                   android:id="@+id/previewGrouInfo"
+                   android:layout_width="120dp"
+                   style="@style/button_nowidth"
+                   android:text="预览分组信息"/>
+               <Button
+                   android:id="@+id/saveViewGroupInfo"
+                   android:layout_width="120dp"
+                   style="@style/button_nowidth"
+                   android:text="保存分组信息"/>
+               </LinearLayout>
+               <Button
+                   android:id="@+id/groupCancel"
+                   android:layout_width="240dp"
+                   style="@style/button_nowidth"
+                   android:text="返      回"/>
+               <TextView
+                   android:id="@+id/groupInfo1"
+                   style="@style/textview_wrap_1"
+                   android:text=""/>
+               <TextView
+                   android:id="@+id/groupInfo2"
+                   style="@style/textview_wrap_1"
+                   android:text=""/>
+               <TextView
+                   android:id="@+id/groupInfo3"
+                   style="@style/textview_wrap_1"
+                   android:text=""/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    style="@style/layout_match_parent_50">
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Text_title"
+        android:text="网络单词管理"/>
+    <TextView
+        android:id="@+id/welcomeWords"
+        style="@style/Text_title_wel"
+        android:text="xxx用户欢迎您"/>
+    <Button
+        android:id="@+id/kingsoftgovselect"
+        style="@style/button_match_parent"
+        android:text="查询"/>
+    <Button
+        android:id="@+id/kingsoftgovedit"
+        style="@style/button_match_parent"
+        android:text="修改已保存的网络单词信息"/>
+    <Button
+        android:id="@+id/kingsoftgovdel"
+        style="@style/button_match_parent"
+        android:text="删除已保存网络单词信息"/>
+    <Button
+        android:id="@+id/returntomain"
+        style="@style/button_match_parent"
+        android:text="返回"/>
+</LinearLayout>

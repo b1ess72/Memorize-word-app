@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_parent_50" >
+    <TextView
+        android:id="@+id/wel_word"
+        style="@style/Text_title"
+        android:text="欢迎您登录" />
+    <Button
+        android:id="@+id/course_gov"
+        style="@style/button_match_parent"
+        android:text="课程管理" />
+    <Button
+        android:id="@+id/net_word_gov"
+        style="@style/button_match_parent"
+        android:text="网络单词" />
+    <Button
+        android:id="@+id/study_review_gov"
+        style="@style/button_match_parent"
+        android:text="学习/复习" />
+    <Button
+        android:id="@+id/setting_gov"
+        style="@style/button_match_parent"
+        android:text="设置" />
+    <Button
+        android:id="@+id/user_gov"
+        style="@style/button_match_parent"
+        android:text="用户管理"/>
+    <Button
+        android:id="@+id/database_backup"
+        style="@style/button_match_parent"
+        android:text="备份和还原" />
+    <Button
+        android:id="@+id/user_return"
+        style="@style/button_match_parent"
+        android:text="返回" />
+    <Button
+        android:id="@+id/user_quit"
+        style="@style/button_match_parent"
+        android:text="退出登录" />
+    
+    
+
+</LinearLayout>
