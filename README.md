@@ -29,6 +29,7 @@
 4. adb install REBrowse.apk
 5. adb push danci.txt /sdcard/
 6. 未成功请重新启动虚拟机。
+
 可以使用 `adb devices` 命令来列出已连接的设备
 如果有设备连接并处于正常状态，输出可能类似于：
     List of devices attached
