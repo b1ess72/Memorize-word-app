@@ -13,5 +13,6 @@
 
 1. 克隆项目到文件夹
 2. 在Eclipse中点击`File` `Import` `Android` `Existing Android Code Into Workspace` Next
-3. 找到bdc 并且 - [x] Copy projects into workspace
-4. Finish
+3. 找到bdc
+4. - [x] Copy projects into workspace
+6. Finish
