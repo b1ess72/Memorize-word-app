@@ -5,7 +5,9 @@
 ## 克隆项目下载adt
 
 直接下载 ZIP 文件：您可以在 GitHub 项目页面的右上角找到一个 "Code" 按钮，可以使用它来克隆或下载项目的 ZIP 压缩文件。下载后，您可以解压缩文件，获得项目的副本。
-[点击下载adt](https://pan.baidu.com/s/1bgVN8jyuqSPrfsbNMGVlJA?pwd=1234) 提取码：1234]
+
+[点击下载adt](https://pan.baidu.com/s/1bgVN8jyuqSPrfsbNMGVlJA?pwd=1234)
+提取码：1234
 
 ## 配置虚拟机
 
